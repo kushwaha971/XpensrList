@@ -1,0 +1,30 @@
+.exepense_list{
+    margin: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.empty_state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty_images{
+    height: 360px;
+}
+
+@media only screen and (max-width: 1024px){
+    .empty_images{
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 512px){
+    .empty_images{
+        height: 240px;
+    }
+}
