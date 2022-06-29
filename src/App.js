@@ -18,7 +18,6 @@ function App() {
       <Route path="/add_expense" exact element={<AddExpense />}/>
       </Routes>
      </Router>
-     
     </>
      
    
